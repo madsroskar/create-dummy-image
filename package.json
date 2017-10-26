@@ -1,0 +1,36 @@
+{
+  "name": "create-dummy-image",
+  "version": "1.0.0",
+  "description": "Create a dummy image, and write it to a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madsroskar/create-dummy-image.git"
+  },
+  "keywords": [
+    "image",
+    "dummy",
+    "dummy image",
+    "placeholder",
+    "placeholder image"
+  ],
+  "author": "Mads Røskar <madshvero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madsroskar/create-dummy-image/issues"
+  },
+  "homepage": "https://github.com/madsroskar/create-dummy-image#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "yargs": "^10.0.3"
+  },
+  "bin": {
+    "create-dummy-image": "index.js"
+  }
+}
