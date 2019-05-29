@@ -2,7 +2,7 @@
 
 var http = require('https');
 var fs = require('fs');
-const yargs = require('yargs');
+var yargs = require('yargs');
 var currentFolderName = require('path').basename(process.cwd());
 var Promise = require('promise');
 
